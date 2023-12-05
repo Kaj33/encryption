@@ -28,6 +28,4 @@ class Main {
   v4.stampa();
   }
 }
-  
-
-
+  // commento
