@@ -2,7 +2,7 @@ class Main {
   public static void main(String[] args) {
     //inserimento parola chiave per vigenere
     String parolaChiave;
-    System.out.println("Inserisci una parola chiave");
+    System.out.println("Inserisci la parola chiave");
     try {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
       parolaChiave = br ReadLine();
