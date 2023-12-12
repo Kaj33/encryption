@@ -1,6 +1,16 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Cifriamo il nostro testo e trasformiamolo in un testo segreto!");
+    //inserimento parola chiave per vigenere
+    String parolaChiave;
+    System.out.println("Inserisci una parola chiave");
+    try {
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+      parolaChiave = br ReadLine();
+    }
+    catch (IOException io){
+      System.err.println("errore lettura dati da tastiera");
+    }
+      
   Matrice m1 = new Matrice ("TPSIT");
   Vigenere v1 = new Vigenere (0,12,0,12,m1);
   Vigenere v2 = new Vigenere (0,12,0,12,m1);
